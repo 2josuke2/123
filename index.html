@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>专业开户</title>
+<style>
+
+    .container {
+      display: flex;      /* 并排布局 */
+      align-items: center;/* 垂直居中 */
+      gap: 10px;          /* 文字和图片之间的距离 */
+      margin: 1px;
+    }
+    .text {
+      flex: 1;            /* 文字占剩余空间 */
+    }
+    img {
+      width: 1000px;       /* 图片宽度，可自己改 */
+      height: auto;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="wechat-section">
+        <h3>扫码/点击添加微信咨询</h3>
+        <!-- 用a标签包裹二维码，实现点击跳转 -->
+        <a href="https://u.wechat.com/这里替换成你的微信链接" target="_blank">
+            <img src="wechat_qr.png" alt="微信加好友二维码">
+        </a>
+        <br>
+        <!-- 额外的文字按钮，点击也能跳转 -->
+        <a href="https://u.wechat.com/这里替换成你的微信链接" target="_blank" class="wechat-btn">
+            👉 点击直接加微信
+        </a>
+        <!-- 反诈警示（必须加！） -->
+        <p style="color:red; margin-top:20px; font-size:14px;">
+        </p>
+    </div>
+    <div class="container">
+        <!-- 左边文字 -->
+    <div class="text">
+   
+    <h1><p>🚀 极速开户，无视风控</p>
+<p>免实名认证：无需上传身份证，手机号即开即用。</p>
+<p>免人脸识别：绕过活体检测，隐私百分百保密。</p>
+<p>全自动审核：24小时机器人秒批，0等待。</p>
+<p>🌍 多场景支持</p>
+<p>虚拟币法币兑换通道</p>
+<p>跨境支付结算接口</p>
+<p>高匿名社交/交易账户</p>
+<p>🛡️ 安全承诺</p>
+<p>“三网跳转+境外加密，公检法也查不到</p>
+<p>💰 限时福利</p>
+<p>首充100送100，提现无门槛，秒到账。</p>
+</h1>
+</div>
+
+    <!-- 右边图片 -->
+    <img src="23.jpg" alt="反诈宣传道具图">
+  </div>
+  <!-- 微信二维码+链接区域（核心！） -->
+    
+</body>
+
+
+
+
+</html>
